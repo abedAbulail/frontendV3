@@ -65,10 +65,7 @@ export default function WelcomePage() {
           transition: all 0.3s ease;
         }
 
-        .step-item:hover {
-          background-color: #e8ecff;
-          transform: translateX(5px);
-        }
+
 
         .btn-start {
           background-color: #001f3f;
