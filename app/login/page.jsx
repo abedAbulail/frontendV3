@@ -115,7 +115,7 @@ export default function AuthPages() {
                   {!isLogin && (
                     <>
                       <div className="mb-3">
-                        <label className="form-label text-light">Full Name</label>
+                        <label className="form-label text-dark">Full Name</label>
                         <input
                           type="text"
                           className="form-control form-control-dark"
@@ -128,7 +128,7 @@ export default function AuthPages() {
                         />
                       </div>
                       <div className="mb-3">
-                        <label className="form-label text-light">Collection Name</label>
+                        <label className="form-label text-dark">Collection Name</label>
                         <input
                           type="text"
                           className="form-control form-control-dark"
@@ -144,7 +144,7 @@ export default function AuthPages() {
                   )}
 
                   <div className="mb-3">
-                    <label className="form-label text-light">Email Address</label>
+                    <label className="form-label text-dark">Email Address</label>
                     <input
                       type="email"
                       className="form-control form-control-dark"
@@ -158,7 +158,7 @@ export default function AuthPages() {
                   </div>
 
                   <div className="mb-3">
-                    <label className="form-label text-light">Password</label>
+                    <label className="form-label text-dark">Password</label>
                     <input
                       type="password"
                       className="form-control form-control-dark"
@@ -173,7 +173,7 @@ export default function AuthPages() {
 
                   {!isLogin && (
                     <div className="mb-3">
-                      <label className="form-label text-light">Confirm Password</label>
+                      <label className="form-label text-dark">Confirm Password</label>
                       <input
                         type="password"
                         className="form-control form-control-dark"
