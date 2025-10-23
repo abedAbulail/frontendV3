@@ -21,7 +21,7 @@ export default function Navbar() {
 
     try {
       const response = await axios.post(
-        "http://127.0.0.1:8000/publish",
+        "https://backend-z1i1.onrender.com/publish",
         {},
         {
           headers: {
